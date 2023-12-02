@@ -53,7 +53,7 @@ def kuda_strelat(ship, palubi):
                 print('Вы потопили корабль!')
     else:
         print('Мимо...')
-        pole[ryad][stolbec] = '~'
+        pole[ryad][stolbec] = '*'
 
 # Placement of the first ship
 ship1, palubi1 = random_ship(ship1, palubi1)
@@ -68,3 +68,4 @@ for i in range(20):  # Увеличил количество попыток дл
     show_pole()
     kuda_strelat(ship1, palubi1)
     kuda_strelat(ship2, palubi2)
+    kuda_strelat(ship3, palubi3)
