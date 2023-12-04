@@ -15,8 +15,7 @@ def print_board(board):
         for j in range(7):
             print(board[i][j], end=" ")
         print()
-        # kiren
-# lorem
+
 def place_ships():
     ships = [(3, 's'), (2, 'm'), (2, 'm'), (1, 's'), (1, 's'), (1, 's'), (1, 's')]
 
@@ -81,8 +80,7 @@ def get_shot():
 
 def play_game():
     clear()
-    print("Dear player, in my version of the game, if you hit, then 'H' from the word 'Hit' will be displayed on the board at this point, if you miss 'M' from the word 'Miss'.")
-    print("Thank you for your attention!")
+    
     sleep(10)
     clear()
 
