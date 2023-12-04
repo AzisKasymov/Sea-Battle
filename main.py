@@ -16,7 +16,7 @@ def print_board(board):
             print(board[i][j], end=" ")
         print()
         # kiren
-
+# lorem
 def place_ships():
     ships = [(3, 's'), (2, 'm'), (2, 'm'), (1, 's'), (1, 's'), (1, 's'), (1, 's')]
 
